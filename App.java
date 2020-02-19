@@ -25,6 +25,7 @@ import java.util.List;
 public class App extends Application {
     public static void main(String[] args) {
         System.out.println("Connect SQL Database using Java");
+        System.out.println("Hello World");
         Application.launch(args);
     }
 
