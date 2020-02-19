@@ -33,6 +33,7 @@ public class Login extends Stage {
 
     private Button btnLogin = new Button("Log in");
     private Button btnCancel = new Button("Cancel");
+    private Button btnRegister = new Button("Register");
 
     boolean isLogin = false;
     String username = "";
