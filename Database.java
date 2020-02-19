@@ -1,4 +1,4 @@
-package CRUD.TechmasterCRUD.practice;
+package CRUD_Student;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

@@ -1,4 +1,4 @@
-package CRUD.TechmasterCRUD.practice;
+package CRUD_Student;
 
 public class Major {
     private final int majorID;

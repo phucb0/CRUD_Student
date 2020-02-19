@@ -1,4 +1,4 @@
-package CRUD.TechmasterCRUD.practice;
+package CRUD_Student;
 
 public class Account {
     private final String username;

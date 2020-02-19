@@ -1,4 +1,4 @@
-package CRUD.TechmasterCRUD.practice;
+package CRUD_Student;
 
 //import CRUD.TechmasterCRUD.app.Database;
 
@@ -29,7 +29,7 @@ public class App extends Application {
         Application.launch(args);
     }
 
-    private Label lblTitle = new Label("TableView Student");
+    private Label lblTitle = new Label("Student Management");
     private Label lblRegistered = new Label("Not yet registered");
 
     private Button btnRefresh = new Button("Refresh");

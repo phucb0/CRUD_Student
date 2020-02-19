@@ -1,4 +1,4 @@
-package CRUD.TechmasterCRUD.practice;
+package CRUD_Student;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;

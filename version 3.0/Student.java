@@ -1,4 +1,4 @@
-package CRUD_Student;
+package CRUD.TechmasterCRUD.practice;
 
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
