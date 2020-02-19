@@ -6,14 +6,14 @@ import javafx.beans.property.SimpleStringProperty;
 public class Student {
 
     private final SimpleIntegerProperty studentID;
-    private final SimpleIntegerProperty studentMatrikelNumber;
+    private final SimpleIntegerProperty studentMatrNumber;
     private final SimpleStringProperty studentName;
     private final SimpleIntegerProperty studentAge;
     private final SimpleStringProperty studentMajor;
 
-    public Student(Integer studentID, Integer studentMatrikelNumber, String studentName, Integer studentAge, String studentMajor) {
+    public Student(Integer studentID, Integer studentMatrNumber, String studentName, Integer studentAge, String studentMajor) {
         this.studentID = new SimpleIntegerProperty(studentID);
-        this.studentMatrikelNumber = new SimpleIntegerProperty(studentMatrikelNumber);
+        this.studentMatrNumber = new SimpleIntegerProperty(studentMatrNumber);
         this.studentName = new SimpleStringProperty(studentName);
         this.studentAge = new SimpleIntegerProperty(studentAge);
         this.studentMajor = new SimpleStringProperty(studentMajor);
@@ -51,11 +51,11 @@ public class Student {
         return studentMajor;
     }
 
-    public int getStudentMatrikelNumber() {
-        return studentMatrikelNumber.get();
+    public int getStudentMatrNumber() {
+        return studentMatrNumber.get();
     }
 
-    public SimpleIntegerProperty studentMatrikelNumberProperty() {
-        return studentMatrikelNumber;
+    public SimpleIntegerProperty studentMatrNumberProperty() {
+        return studentMatrNumber;
     }
 }

@@ -1,7 +1,5 @@
 package CRUD_Student;
 
-//import CRUD.TechmasterCRUD.app.Database;
-
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -40,7 +38,7 @@ public class App extends Application {
     private ComboBox comboBox = new ComboBox();
 
     private TableColumn columnStudentID = new TableColumn("#");
-    private TableColumn columnStudentMatrikelNumber = new TableColumn("Student's ID");
+    private TableColumn columnStudentMatrNumber = new TableColumn("Student's ID");
     private TableColumn columnStudentName = new TableColumn("Student's name");
     private TableColumn columnStudentAge = new TableColumn("Student's age");
     private TableColumn columnMajorName = new TableColumn("Student's major");
@@ -70,8 +68,8 @@ public class App extends Application {
         columnStudentID.setMinWidth(100);
         columnStudentID.setCellValueFactory(new PropertyValueFactory<>("studentID"));
 
-        columnStudentMatrikelNumber.setMinWidth(100);
-        columnStudentMatrikelNumber.setCellValueFactory(new PropertyValueFactory<>("studentMatrikelNumber"));
+        columnStudentMatrNumber.setMinWidth(100);
+        columnStudentMatrNumber.setCellValueFactory(new PropertyValueFactory<>("studentMatrNumber"));
 
         columnStudentName.setMinWidth(200);
         columnStudentName.setCellValueFactory(new PropertyValueFactory<>("studentName"));
@@ -82,7 +80,7 @@ public class App extends Application {
         columnMajorName.setMinWidth(200);
         columnMajorName.setCellValueFactory(new PropertyValueFactory<>("studentMajor"));
 
-        tableView.getColumns().addAll(columnStudentID, columnStudentMatrikelNumber, columnStudentName, columnStudentAge, columnMajorName);
+        tableView.getColumns().addAll(columnStudentID, columnStudentMatrNumber, columnStudentName, columnStudentAge, columnMajorName);
 
 
         tableView.setRowFactory(tv -> {
