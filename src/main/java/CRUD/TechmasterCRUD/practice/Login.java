@@ -6,10 +6,7 @@ import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.text.Font;
@@ -32,7 +29,7 @@ public class Login extends Stage {
 
 
     private TextField txtUser = new TextField();
-    private TextField txtPassword = new TextField();
+    private PasswordField txtPassword = new PasswordField();
 
     private Button btnLogin = new Button("Log in");
     private Button btnCancel = new Button("Cancel");
